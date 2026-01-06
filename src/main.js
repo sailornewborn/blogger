@@ -2,7 +2,7 @@ const butt = document.getElementById("butt")
 const para = document.getElementById("para")
 
 butt.addEventListener("click", ()=>{
-  let totalSeconds = 10
+  let totalSeconds = 60 * 6
   const interval = setInterval(() => {
     totalSeconds -= 1
     para.textContent = `Time left: ${totalSeconds} seconds`
